@@ -7,5 +7,11 @@ go run network_exporter.go -g -v
 
 
 the output will be a collection of gauges with a label containing src-dst-port like:
-NetStat{traffic="192.168.66.6-216.58.198.164-443"} 364
+
+```
+# HELP NetStat TCP/IP traffic stats
+# TYPE NetStat gauge
+NetStat{traffic="10.7.156.200-45896-172.17.0.3-9097"} 160
+NetStat{traffic="172.17.0.3-9097-10.7.156.200-45896"} 5282
+```
 
