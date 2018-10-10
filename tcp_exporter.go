@@ -7,6 +7,8 @@ package main
 // the output will be a collection of gauges with a label containing src-dst-port like: 
 // NetStat{traffic="192.168.66.6-216.58.198.164-443"} 364
 
+// for the time being, it's not implementing any Mutex for shared variables
+
 import (
     "fmt"
     "github.com/google/gopacket"
