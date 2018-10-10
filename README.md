@@ -1,4 +1,4 @@
-it will 'sniff' all TCP traffic and report amount of data seen per TCP stream
+it will 'sniff' all TCP traffic (it can do UDP too) and report amount of data seen per TCP stream
 
 you can specify the collection interval (5 sec in this example), the ability to group inbound/outbound traffic for the same service and more...
 
