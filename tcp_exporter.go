@@ -18,6 +18,7 @@ import (
     "strings"
     "strconv"
     "os"
+    _ "net/http/pprof"
     "time"
     "os/signal"
     "syscall"
